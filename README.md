@@ -36,6 +36,15 @@ The demo's backend (`gpu_train.py`, `gpu_demo_server.py`) lives beside the publi
 `~/projects/ai-research-pub/`, not in this repo; editing it requires restarting
 `gpu_demo_server.py`. See the implementation doc for routes, rate limits, and the publish flow.
 
+## Reading it
+
+Open `attnres-deep-dive.html` in a browser — no build step, no network needed to read it, and every
+demo panel still renders offline from baked fallbacks. `attnres-deep-dive.md` is the same text for a
+terminal or code host. §11's live panels need the GPU backend described above; with no server they
+fall back to the last captured numbers.
+
 ## License
 
-The `.opencode/skills/` files declare CC-BY-NC-ND-4.0. No repo-wide `LICENSE` is present.
+CC BY-NC-ND 4.0 (`LICENSE`), matching the headers already declared in `.opencode/skills/`. Attribution
+to this repository; no commercial use; no derivatives. The explainer summarises a third party's paper —
+check that paper's own terms before reusing its figures or numbers.
